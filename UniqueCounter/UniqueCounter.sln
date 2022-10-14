@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCountModule", "WordCountModule\WordCountModule.csproj", "{47105F71-49BE-4D70-93D9-C758A68446BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Printer", "Printer\Printer.csproj", "{59C4777F-7102-456F-9C7F-58AA293428B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47105F71-49BE-4D70-93D9-C758A68446BE} = {47105F71-49BE-4D70-93D9-C758A68446BE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47105F71-49BE-4D70-93D9-C758A68446BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47105F71-49BE-4D70-93D9-C758A68446BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47105F71-49BE-4D70-93D9-C758A68446BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47105F71-49BE-4D70-93D9-C758A68446BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C4777F-7102-456F-9C7F-58AA293428B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C4777F-7102-456F-9C7F-58AA293428B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C4777F-7102-456F-9C7F-58AA293428B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C4777F-7102-456F-9C7F-58AA293428B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784A9150-326B-428B-ABBD-092243DD814F}
+	EndGlobalSection
+EndGlobal
